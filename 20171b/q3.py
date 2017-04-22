@@ -1,6 +1,6 @@
 __author__ = 'Tom'
 
-
+# WORKS FOR SMALL CASE, USE BFS TO GENERALIZE TO LARGE CASE BUT ISNT COMPLETE
 def solve_line(city_line, horses):
     avail = []  # list of (time, dist_remain, speed)
     c_start = 0
